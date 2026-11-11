@@ -14,7 +14,7 @@ console.log("Shuma totale (pa transport): " + shumaTotale);
 
 shumaTotale += transporti;
 
-console.lof("Shuma totale (me transport): " + shumaTotale);
+console.log("Shuma totale (me transport): " + shumaTotale);
 
 console.log("Ushtrimi 2");
 const studenti = { aktiviteti : 18, projekti : 24, provimi : 43};
@@ -35,4 +35,17 @@ console.log("Perqindja: " + perqindja);
 
 console.log("Ushtrimi 3");
 
+let buxheti = 80;
+let akomodimi = 96;
+let transport = 42;
+let ushqimi = 57;
 
+let kostoTotale = akomodimi + transport + ushqimi;
+let pjesaESecilit = kostoTotale / 3;
+
+console.log("Kosto totale: " + kostoTotale);
+console.log("Pjesa e secilit: " + pjesaESecilit);
+console.log("Sa mbeten per secilin: " + (buxheti - pjesaESecilit));   
+
+
+console.log("Ushtrimi 4");
