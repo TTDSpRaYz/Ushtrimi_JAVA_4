@@ -49,3 +49,18 @@ console.log("Sa mbeten per secilin: " + (buxheti - pjesaESecilit));
 
 
 console.log("Ushtrimi 4");
+const porosia = { produkti1 : 35, produkti2 : 35, produkti3 : 24 };
+let cmimi = porosia.produkti1 + porosia.produkti2 + porosia.produkti3;
+
+console.log("Cmimi para zbritjes: " + cmimi);
+
+let zbritja = 0.15;
+
+console.log("Cmimi pas zbritjes: " + (cmimi * zbritja));
+
+let transp = 4;
+
+cmimi += transp;
+
+console.log("Cmimi pas zbritjes (me transport): " + (cmimi * zbritja));
+
