@@ -79,3 +79,17 @@ console.log(vlera1 + vlera2 + vlera3);
 
 
 console.log("Ushtrimi 6");
+let minEHene = 95;
+let minEMarte = 80;
+let minEMerkure = 115;
+
+let totalMinuta = minEHene + minEMarte + minEMerkure;
+let totalOre = totalMinuta / 60;
+let minutaTeMbetura = totalMinuta % 60;
+
+console.log("Total minuta: " + totalMinuta);
+console.log("Total ore: " + totalOre);
+console.log("Minutat e mbetura: " + minutaTeMbetura);
+
+
+console.log("Ushtrimi 7");
