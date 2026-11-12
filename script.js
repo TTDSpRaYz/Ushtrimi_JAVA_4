@@ -106,3 +106,17 @@ console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
 stoku += 35;
 console.log("Stoku: " + stoku);
 console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
+
+
+console.log("----------------------Ushtrimi 8-------------------");
+// Një profesor ka 157 fletë pune dhe çdo student duhet të marrë nga 6 fletë.
+// Llogaritni numrin e grupeve të plota prej 6 fletësh duke përdorur parseInt() mbi rezultatin e pjesëtimit.
+// Gjeni fletët e mbetura me %. Kontrolloni llogaritjen duke shfaqur: (grupet * 6) + mbetja.
+
+let totalFlete = 157;
+let nrGrupeve = parseInt(totalFlete / 6);
+let nrFletaTeMbetura = totalFlete % 6;
+let nrOrigjinal = (nrGrupeve * 6) + nrFletaTeMbetura;
+console.log("Numri i Grupeve: " + nrGrupeve);
+console.log("Numri i fletave te mbetura: " + nrFletaTeMbetura);
+console.log("Kontroll: " + nrOrigjinal);
