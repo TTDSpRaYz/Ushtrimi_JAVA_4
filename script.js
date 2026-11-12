@@ -109,10 +109,6 @@ console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
 
 
 console.log("----------------------Ushtrimi 8-------------------");
-// Një profesor ka 157 fletë pune dhe çdo student duhet të marrë nga 6 fletë.
-// Llogaritni numrin e grupeve të plota prej 6 fletësh duke përdorur parseInt() mbi rezultatin e pjesëtimit.
-// Gjeni fletët e mbetura me %. Kontrolloni llogaritjen duke shfaqur: (grupet * 6) + mbetja.
-
 let totalFlete = 157;
 let nrGrupeve = parseInt(totalFlete / 6);
 let nrFletaTeMbetura = totalFlete % 6;
@@ -120,3 +116,27 @@ let nrOrigjinal = (nrGrupeve * 6) + nrFletaTeMbetura;
 console.log("Numri i Grupeve: " + nrGrupeve);
 console.log("Numri i fletave te mbetura: " + nrFletaTeMbetura);
 console.log("Kontroll: " + nrOrigjinal);
+
+
+console.log("----------------------Ushtrimi 9-------------------");
+let cmimi1 = "19.90";
+let cmimi2 = "8.5";
+let sasia1 = 2;
+let sasia2 = 3;
+
+cmimi1 = Number(cmimi1);
+cmimi2 = Number(cmimi2);
+
+let totali1 = cmimi1 * sasia1;
+let totali2 = cmimi2 * sasia2;
+let tarifaESherbimit = 1.1;
+let totaliIPorosise = totali1 + totali2;
+let totaliPerfundimtar = totaliIPorosise * tarifaESherbimit;
+let totaliIFormatizuar = totaliPerfundimtar.toFixed(2);
+console.log("Totali artikulli 1: " + totali1);
+console.log("Totali artikulli 2: " + totali2);
+console.log("Shuma e porosisë: " + totaliIPorosise);
+console.log("Shuma finale me 10% tarifë shërbimi (toFixed(2)): " + totaliIFormatizuar);
+console.log("Tipi i vlerës së formatizuar (typeof): " + typeof totaliIFormatizuar);
+
+
