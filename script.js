@@ -1,4 +1,4 @@
-console.log("Ushtrimi 1");
+console.log("----------------------Ushtrimi 1-------------------");
 let sasiaLibra = 3;
 let sasiaFletore = 4;
 let cmimiLiber = 12.5;
@@ -16,7 +16,7 @@ shumaTotale += transporti;
 
 console.log("Shuma totale (me transport): " + shumaTotale);
 
-console.log("Ushtrimi 2");
+console.log("----------------------Ushtrimi 2-------------------");
 const studenti = { aktiviteti : 18, projekti : 24, provimi : 43};
 let totaliPike = studenti.aktiviteti + studenti.projekti + studenti.provimi;
 let maxPike = 100;
@@ -33,7 +33,7 @@ console.log("Totali i pikeve: " + totaliPike);
 console.log("Perqindja: " + perqindja);
 
 
-console.log("Ushtrimi 3");
+console.log("----------------------Ushtrimi 3-------------------");
 
 let buxheti = 80;
 let akomodimi = 96;
@@ -48,7 +48,7 @@ console.log("Pjesa e secilit: " + pjesaESecilit);
 console.log("Sa mbeten per secilin: " + (buxheti - pjesaESecilit));   
 
 
-console.log("Ushtrimi 4");
+console.log("----------------------Ushtrimi 4-------------------");
 const porosia = { produkti1 : 35, produkti2 : 35, produkti3 : 24 };
 let cmimi = porosia.produkti1 + porosia.produkti2 + porosia.produkti3;
 
@@ -65,7 +65,7 @@ cmimi += transp;
 console.log("Cmimi pas zbritjes (me transport): " + (cmimi * zbritja));
 
 
-console.log("Ushtrimi 5");
+console.log("----------------------Ushtrimi 5-------------------");
 let vlera1 = "25";
 let vlera2 = "17";
 let vlera3 = "8";
@@ -78,7 +78,7 @@ vlera3 = Number(vlera3);
 console.log(vlera1 + vlera2 + vlera3);
 
 
-console.log("Ushtrimi 6");
+console.log("----------------------Ushtrimi 6-------------------");
 let minEHene = 95;
 let minEMarte = 80;
 let minEMerkure = 115;
@@ -92,4 +92,17 @@ console.log("Total ore: " + totalOre);
 console.log("Minutat e mbetura: " + minutaTeMbetura);
 
 
-console.log("Ushtrimi 7");
+console.log("----------------------Ushtrimi 7-------------------");
+let stoku = 120;
+let cmimiNjesi = 6.75;
+console.log("Stoku: " + stoku);
+console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
+stoku -= 18;
+console.log("Stoku: " + stoku);
+console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
+stoku -= 27;
+console.log("Stoku: " + stoku);
+console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
+stoku += 35;
+console.log("Stoku: " + stoku);
+console.log("Vlera e stokut: " + (stoku * cmimiNjesi));
