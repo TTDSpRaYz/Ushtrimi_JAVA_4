@@ -64,3 +64,18 @@ cmimi += transp;
 
 console.log("Cmimi pas zbritjes (me transport): " + (cmimi * zbritja));
 
+
+console.log("Ushtrimi 5");
+let vlera1 = "25";
+let vlera2 = "17";
+let vlera3 = "8";
+
+console.log(vlera1 + vlera2 + vlera3);
+console.log("Ky rezultat shfaqet per shkak se vlerat tekstuale kur 'mblidhen' vetem bashkohen");
+vlera1 = Number(vlera1);
+vlera2 = Number(vlera2);
+vlera3 = Number(vlera3);
+console.log(vlera1 + vlera2 + vlera3);
+
+
+console.log("Ushtrimi 6");
