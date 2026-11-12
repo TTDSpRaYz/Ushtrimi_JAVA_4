@@ -140,3 +140,21 @@ console.log("Shuma finale me 10% tarifë shërbimi (toFixed(2)): " + totaliIForm
 console.log("Tipi i vlerës së formatizuar (typeof): " + typeof totaliIFormatizuar);
 
 
+console.log("----------------------Ushtrimi 10-------------------");
+let nrPjesemarres = 45;
+let cmimiPerPjesemarres = 12;
+let cmimiSalla = 180;
+let cmimiMaterialet = 95;
+let cmimiReklama = 60;
+
+let teArdhurat = nrPjesemarres * cmimiPerPjesemarres;
+let shpenzimetTotale = cmimiSalla + cmimiMaterialet + cmimiReklama;
+let diferenca = teArdhurat - shpenzimetTotale;
+console.log("Te ardhurat: " + teArdhurat);
+console.log("Shpenzimet e parashikuara: " + shpenzimetTotale);
+console.log("Diferenca: " + diferenca);
+shpenzimetTotale += 25;
+diferenca = teArdhurat - shpenzimetTotale;
+console.log("Te ardhurat: " + teArdhurat);
+console.log("Shpenzimet totale: " + shpenzimetTotale);
+console.log("Diferenca: " + diferenca);
